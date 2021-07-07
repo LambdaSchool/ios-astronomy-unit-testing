@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct MarsPhotoReference: Codable {
+struct MarsPhotoReference: Codable, Equatable {
     let id: Int
     let sol: Int
     let camera: Camera

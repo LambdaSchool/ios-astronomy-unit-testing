@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct MarsRover: Codable {
+struct MarsRover: Codable, Equatable {
     let name: String
     
     let launchDate: Date
